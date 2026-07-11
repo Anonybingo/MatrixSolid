@@ -1,0 +1,51 @@
+/* ── How We Work ──────────────────────────────────────────────── */
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.pillar { background: var(--bg); padding: 34px 26px; }
+.pillar-tag {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--f-mono); font-size: 12.5px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 14px;
+}
+.pillar-tag::before { content: ""; width: 6px; height: 6px; background: var(--gold); }
+.pillar p { font-size: 14.5px; }
+
+@media (max-width: 860px) { .pillar-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .pillar-grid { grid-template-columns: 1fr; } }
+
+/* ── Team grid ─────────────────────────────────────────────────── */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+.team-card {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 20px;
+  transition: border-color 0.25s ease, transform 0.25s var(--ease);
+}
+.team-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+.team-photo {
+  aspect-ratio: 1;
+  border: 1px dashed var(--line-strong);
+  margin-bottom: 18px;
+  display: flex; align-items: center; justify-content: center;
+  background: repeating-linear-gradient(135deg, var(--surface-2) 0 2px, var(--surface) 2px 14px);
+}
+.team-photo span {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em;
+  color: var(--faint); text-transform: uppercase;
+}
+.team-name { font-size: 17px; margin-bottom: 4px; }
+.team-role { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold); }
+
+/* ── CTA section ───────────────────────────────────────────────── */
+.cta-section { border-top: 1px solid var(--line); text-align: center; }
+.cta-inner { max-width: 620px; margin: 0 auto; }
+.cta-inner .cta-row { justify-content: center; }

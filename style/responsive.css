@@ -1,0 +1,58 @@
+/* style/responsive.css
+   Loaded last on every page. Three breakpoints:
+     1024  tablet landscape
+      860  hamburger kicks in / grids stack
+      560  fine-tune spacing & type
+   ────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 1024px) {
+  .section { padding: 96px 0; }
+  .footer-grid { grid-template-columns: 1.2fr 1fr 1fr; gap: 32px; }
+}
+
+@media (max-width: 860px) {
+  .nav-toggle { display: flex; }
+
+  .navbar-container { padding: 13px 18px; }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0; right: 0;
+    background: rgba(11, 12, 14, 0.98);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    z-index: 99998;
+    animation: menuDrop 0.2s ease;
+  }
+  @keyframes menuDrop { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .nav-menu.open { display: flex; }
+  .nav-link { padding: 12px 14px; border-radius: 6px; }
+  .nav-link:hover { background: rgba(236, 237, 233, 0.05); }
+
+  .section { padding: 76px 0; }
+  .section-inner { padding: 0 24px; }
+  .section-head { margin-bottom: 44px; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+  .footer { padding: 60px 0 24px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+
+  .cta-row { flex-direction: column; align-items: stretch; }
+  .btn { justify-content: center; }
+}
+
+@media (max-width: 560px) {
+  .section-inner { padding: 0 20px; }
+  h2.section-title { font-size: 30px; }
+  .navbar { width: 94%; top: 12px; }
+
+  /* On the narrowest phones the two hero corner tags can crowd into
+     each other — drop the top-right one and keep the status readout. */
+  .hero-tag--tr { display: none; }
+}

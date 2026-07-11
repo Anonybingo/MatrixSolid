@@ -1,0 +1,19 @@
+.goal-name {
+  font-family: var(--f-display);
+  font-weight: 600;
+  font-size: clamp(28px, 4vw, 42px);
+  color: var(--paper);
+  border-bottom: 1px dashed var(--line-strong);
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  display: inline-block;
+}
+
+.edit-hint {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--faint);
+  margin-top: 18px;
+}
+
+.why-section { position: relative; overflow: hidden; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
