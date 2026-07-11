@@ -1,7 +1,3 @@
-// script/reveal.js — shared scroll behaviors: fade-up reveals, navbar
-// hide-on-scroll, and the text-decrypt scramble effect. Include on every
-// page, after cursor.js and navbar.js.
-
 (function () {
   "use strict";
 

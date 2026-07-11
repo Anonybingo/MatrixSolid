@@ -1,8 +1,3 @@
-// script/grid-canvas.js — the homepage hero's signature visual: a live
-// coordinate grid. A handful of cells pulse on their own; the cell under
-// the cursor (or finger) locks on and the readout in the corner updates
-// to match. Only used inside .hero-matrix on index.html.
-
 (function () {
   "use strict";
   const canvas = document.getElementById("gridCanvas");

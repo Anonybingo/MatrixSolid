@@ -1,9 +1,7 @@
-/* style/responsive.css
-   Loaded last on every page. Three breakpoints:
+ /*  Loaded last on every page. Three breakpoints:
      1024  tablet landscape
       860  hamburger kicks in / grids stack
-      560  fine-tune spacing & type
-   ────────────────────────────────────────────────────────────────── */
+      560  fine-tune spacing & type */
 
 @media (max-width: 1024px) {
   .section { padding: 96px 0; }

@@ -1,19 +1,17 @@
 // challenges/challenges.js
-// Edit the six entries below with your real content:
+// Edit the six entries below with the real content:
 //   title      — the challenge name
 //   role       — your team's role on it
 //   summary    — one or two sentences on the problem and what you did
-//   youtubeId  — the part of the YouTube URL after "watch?v=". Leave ""
-//                until you have the real link — the cell shows
-//                "No Signal" instead of a broken embed.
+//   youtubeId  
 
 const CHALLENGES = [
-  { code: "1", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
-  { code: "2", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
-  { code: "3", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
-  { code: "4", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
-  { code: "5", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
-  { code: "6", title: "Challenge title", role: "Team role", summary: "One or two sentences on the problem and what your team actually did about it.", youtubeId: "" },
+  { code: "1", title: "Introduction", role: "Get To Know Us", summary: "Who we are, what drives us.", youtubeId: "gTKFdhgupsg" },
+  { code: "2", title: "Discover Africa", role: "Storytelling", summary: "Choose an African community and tell a story the world has not heard about.", youtubeId: "thElzXTRAs0" },
+  { code: "3", title: "HELP-LAB", role: "Community Engagement", summary: "Improving the quality of life of a given community.", youtubeId: "bW-VPuPTfCY" },
+  { code: "4", title: "Hunt for Treasure", role: "Researching", summary: "Finding a project/start-up company/etc whose operations falls under our chosen G.C.G.O.", youtubeId: "yGsxH3wP7CA" },
+  { code: "5", title: "Launch Your Mission", role: "Compete for $10,000 grant", summary: "Come up with compelling application on our project that would enable us to win the grant.", youtubeId: "B8vd4qyuthQ" },
+  { code: "6", title: "Your Digital Print", role: "Web design", summary: "Creating a website to showcase our E-Lab journey.", youtubeId: "" },
 ];
 
 const grid = document.getElementById("matrixGrid");

@@ -1,7 +1,4 @@
 // script/home.js
-// Edit MAIN_VIDEO_ID below with your YouTube video ID — the part of the
-// URL after "watch?v=" (e.g. for youtube.com/watch?v=dQw4w9WgXcQ it's
-// "dQw4w9WgXcQ"). Leave it as "" until you have the real link.
 
 const MAIN_VIDEO_ID = "gTKFdhgupsg";
 const MAIN_VIDEO_TITLE = "Matrix Solid — the film";

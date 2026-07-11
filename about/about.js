@@ -3,10 +3,12 @@
 // entries freely — the grid adjusts automatically.
 
 const TEAM = [
-  { name: "Team member", role: "Role — e.g. Research & Strategy" },
-  { name: "Team member", role: "Role — e.g. Data & Analysis" },
-  { name: "Team member", role: "Role — e.g. Design & Storytelling" },
-  { name: "Team member", role: "Role — e.g. Partnerships & Outreach" },
+  { name: "Benjamin", role: "Role" },
+  { name: "Englide", role: "Role " },
+  { name: "Mohammed", role: "Role" },
+  { name: "Christian", role: "Role" },
+  { name: "Ladouce", role: "Role" },
+  { name: "JANSON", role: "Role" },
 ];
 
 const grid = document.getElementById("teamGrid");
