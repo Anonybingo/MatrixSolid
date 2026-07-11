@@ -38,7 +38,14 @@
   display: flex; align-items: center; justify-content: center;
   background: repeating-linear-gradient(135deg, var(--surface-2) 0 2px, var(--surface) 2px 14px);
 }
-.team-photo img { width: 100%; height: 100%; object-fit: cover; }
+.team-photo span {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.12em;
+  color: var(--faint); text-transform: uppercase;
+}
 .team-name { font-size: 17px; margin-bottom: 4px; }
 .team-role { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold); }
-.team-bio { margin-top: 10px; font-size: 13px; line-height: 1.6; }
+
+/* ── CTA section ───────────────────────────────────────────────── */
+.cta-section { border-top: 1px solid var(--line); text-align: center; }
+.cta-inner { max-width: 620px; margin: 0 auto; }
+.cta-inner .cta-row { justify-content: center; }

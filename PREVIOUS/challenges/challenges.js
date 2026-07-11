@@ -3,18 +3,15 @@
 //   title      — the challenge name
 //   role       — your team's role on it
 //   summary    — one or two sentences on the problem and what you did
-//   youtubeId  — shows the real YouTube thumbnail once set
-//   image      — optional fallback path (e.g. "photos/challenge6.jpg")
-//                shown when there's no youtubeId yet, so the tile isn't
-//                empty while you're still waiting on a video
+//   youtubeId  
 
 const CHALLENGES = [
-  { code: "1", title: "Introduction", role: "Get To Know Us", summary: "Who we are, what drives us.", youtubeId: "gTKFdhgupsg", image: "" },
-  { code: "2", title: "Discover Africa", role: "Storytelling", summary: "Choose an African community and tell a story the world has not heard about.", youtubeId: "thElzXTRAs0", image: "" },
-  { code: "3", title: "HELP-LAB", role: "Community Engagement", summary: "Improving the quality of life of a given community.", youtubeId: "bW-VPuPTfCY", image: "" },
-  { code: "4", title: "Hunt for Treasure", role: "Researching", summary: "Finding a project/start-up company/etc whose operations falls under our chosen G.C.G.O.", youtubeId: "yGsxH3wP7CA", image: "" },
-  { code: "5", title: "Launch Your Mission", role: "Compete for $10,000 grant", summary: "Come up with compelling application on our project that would enable us to win the grant.", youtubeId: "B8vd4qyuthQ", image: "" },
-  { code: "6", title: "Your Digital Print", role: "Web design", summary: "Creating a website to showcase our E-Lab journey.", youtubeId: "", image: "" },
+  { code: "1", title: "Introduction", role: "Get To Know Us", summary: "Who we are, what drives us.", youtubeId: "gTKFdhgupsg" },
+  { code: "2", title: "Discover Africa", role: "Storytelling", summary: "Choose an African community and tell a story the world has not heard about.", youtubeId: "thElzXTRAs0" },
+  { code: "3", title: "HELP-LAB", role: "Community Engagement", summary: "Improving the quality of life of a given community.", youtubeId: "bW-VPuPTfCY" },
+  { code: "4", title: "Hunt for Treasure", role: "Researching", summary: "Finding a project/start-up company/etc whose operations falls under our chosen G.C.G.O.", youtubeId: "yGsxH3wP7CA" },
+  { code: "5", title: "Launch Your Mission", role: "Compete for $10,000 grant", summary: "Come up with compelling application on our project that would enable us to win the grant.", youtubeId: "B8vd4qyuthQ" },
+  { code: "6", title: "Your Digital Print", role: "Web design", summary: "Creating a website to showcase our E-Lab journey.", youtubeId: "" },
 ];
 
 const grid = document.getElementById("matrixGrid");
@@ -35,9 +32,7 @@ function renderGrid() {
       <span class="cell-code">${c.code}</span>
       ${c.youtubeId
         ? `<img class="cell-thumb" src="${thumbUrl(c.youtubeId)}" alt="" loading="lazy" />`
-        : c.image
-          ? `<img class="cell-thumb" src="${c.image}" alt="" loading="lazy" />`
-          : `<span class="cell-empty">No Signal</span>`}
+        : `<span class="cell-empty">No Signal</span>`}
       <span class="cell-overlay">
         <span class="cell-play">&#9654;</span>
         <span class="cell-title">${c.title}</span>

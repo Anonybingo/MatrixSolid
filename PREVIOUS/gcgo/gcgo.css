@@ -17,5 +17,3 @@
 }
 
 .why-section { position: relative; overflow: hidden; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.problem-section, .prototype-section { position: relative; overflow: hidden; }
-.prototype-frame { max-width: 900px; margin: 0 auto 8px; }

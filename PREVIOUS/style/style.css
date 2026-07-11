@@ -302,16 +302,6 @@ code {
 .chip:hover { border-color: var(--gold); color: var(--paper); }
 .chip b { color: var(--gold); font-weight: 500; }
 
-/* ── Monogram badge (homepage who-visual + About team avatars) ───── */
-.who-mark {
-  position: relative; z-index: 1;
-  width: 84px; height: 84px; border-radius: 50%;
-  border: 1px solid var(--gold);
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--f-mono); font-size: 20px; letter-spacing: 0.05em;
-  color: var(--gold); background: var(--bg);
-}
-
 /* ── Briefing / video frame (shared: hero video, modal video) ────── */
 .frame {
   position: relative;
@@ -378,11 +368,3 @@ code {
 }
 .modal-close:hover { border-color: var(--gold); color: var(--gold); }
 .modal-summary { margin-top: 16px; max-width: 640px; }
-
-/* ── Closing CTA section (About / Challenges / GCGO) ──────────────── */
-.cta-section { border-top: 1px solid var(--line); text-align: center; }
-.cta-inner { max-width: 620px; margin: 0 auto; }
-.cta-inner .cta-row { justify-content: center; }
-
-/* ── Coordinate chip row (Home teaser + GCGO connections) ─────────── */
-.coord-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; }
