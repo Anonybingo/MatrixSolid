@@ -71,7 +71,7 @@
 /* ── Briefing video ────────────────────────────────────────────── */
 .briefing-frame { max-width: 900px; margin: 0 auto; }
 
-/* ── Who We Are teaser ─────────────────────────────────────────── */
+/* ── Who We Are stuff ─────────────────────────────────────────── */
 .who-section { position: relative; overflow: hidden; }
 .who-grid {
   display: grid;

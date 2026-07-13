@@ -26,10 +26,8 @@
     lastY = y;
   }, { passive: true });
 
-  /* ── Decrypt / scramble text-reveal ──────────────────────────────
-     Add class="decrypt-text" to any heading. Final text is read from
-     data-value if present, otherwise the element's own text content. */
-  const GLYPHS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*_+-=/[]";
+  /* ── Decrypt / scramble text-reveal ────────── */
+  const GLYPHS = "🇷🇼A🇺🇬BCDEFGHIJKLMN🔥🌍OPQRSTUVWXYZ0123456789!@#$%^&*_+-✅✅✅=/[]";
   const decryptEls = document.querySelectorAll(".decrypt-text");
 
   if (decryptEls.length) {

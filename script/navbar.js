@@ -1,5 +1,5 @@
 // script/navbar.js — mobile hamburger menu.
-// Plain script — include on every page, after cursor.js.
+// after cursor.js.
 // Injects the toggle button itself; no HTML changes needed per page.
 
 (function () {
