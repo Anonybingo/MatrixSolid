@@ -1,7 +1,7 @@
 // about/about.js
 
 const TEAM = [
-  { name: "Benjamin", role: "Team Lead", bio: "Brings structure and ensures goals are met.", photo: "" },
+  { name: "Benjamin", role: "Team Lead", bio: "Brings structure and ensures goals are met.", photo: "../Images/benjamin.jpg" },
   { name: "Ingride", role: "Role", bio: "Biograph.", photo: "" },
   { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "" },
   { name: "Christian", role: "Role", bio: "Biograph.", photo: "" },
