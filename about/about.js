@@ -2,11 +2,11 @@
 
 const TEAM = [
   { name: "Benjamin", role: "Team Lead", bio: "Brings structure and ensures goals are met.", photo: "../Images/benjamin.jpg" },
-  { name: "Ingride", role: "Role", bio: "Biograph.", photo: "../Images/Ingride.jpg" },
-  { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "../Images/muhamad.jpg" },
-  { name: "Christian", role: "Role", bio: "Biograph.", photo: "../Images/christian.jpg" },
-  { name: "Ladouce", role: "Role", bio: "Biograph.", photo: "../Images/ladouce.jpg" },
-  { name: "Janson", role: "Role", bio: "Biograph.", photo: "../Images/janson.png" },
+  { name: "Ingride", role: "People & Culture Lead", bio: " Team chemistry coordinator and motivator.", photo: "../Images/Ingride.jpg" },
+  { name: "Muhamad", role: "Editor", bio: "Edits reels for the team socials.", photo: "../Images/muhamad.jpg" },
+  { name: "Christian", role: "Strategic Critical Thinker", bio: "Serves as our team's structural compass by challenging assumptions and identifying potential project blind spots.", photo: "../Images/christian.jpg" },
+  { name: "Ladouce", role: "Creative Ideas lead", bio: "Brainstorms original ideas for the team.", photo: "../Images/ladouce.jpg" },
+  { name: "Janson", role: "Technical lead", bio: "Does technical tasks for the team.", photo: "../Images/janson.png" },
 ];
 
 const grid = document.getElementById("teamGrid");
