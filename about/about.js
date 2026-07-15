@@ -1,12 +1,12 @@
 // about/about.js
 
 const TEAM = [
-  { name: "Benjamin", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Englide", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Mohammed", role: "Role", bio: "Biograph.", photo: "" },
+  { name: "Benjamin", role: "Team Lead", bio: "Brings structure and ensures goals are met.", photo: "" },
+  { name: "Ingride", role: "Role", bio: "Biograph.", photo: "" },
+  { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "" },
   { name: "Christian", role: "Role", bio: "Biograph.", photo: "" },
   { name: "Ladouce", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "JANSON", role: "Role", bio: "Biograph.", photo: "" },
+  { name: "Janson", role: "Role", bio: "Biograph.", photo: "" },
 ];
 
 const grid = document.getElementById("teamGrid");
