@@ -9,7 +9,7 @@
 //                empty while you're still waiting on a video
 
 const CHALLENGES = [
-  { code: "1", title: "Introduction", role: "Get To Know Us", summary: "Who we are, what drives us.", youtubeId: "gTKFdhgupsg", image: "" },
+  { code: "1", title: "Introduction", role: "Get To Know Us", summary: "In this video, our team outlines our journey through the African Leadership University (ALU) E-Lab program. We discuss our mission to bridge the gap between building an innovative product and developing a scalable, real-world business solution aimed at tackling major sustainability challenges.", youtubeId: "gTKFdhgupsg", image: "" },
   { code: "2", title: "Discover Africa", role: "Storytelling", summary: "Choose an African community and tell a story the world has not heard about.", youtubeId: "thElzXTRAs0", image: "" },
   { code: "3", title: "HELP-LAB", role: "Community Engagement", summary: "Improving the quality of life of a given community.", youtubeId: "bW-VPuPTfCY", image: "" },
   { code: "4", title: "Hunt for Treasure", role: "Researching", summary: "Finding a project/start-up company/etc whose operations falls under our chosen G.C.G.O.", youtubeId: "yGsxH3wP7CA", image: "" },
