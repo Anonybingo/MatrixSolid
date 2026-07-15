@@ -2,11 +2,11 @@
 
 const TEAM = [
   { name: "Benjamin", role: "Team Lead", bio: "Brings structure and ensures goals are met.", photo: "../Images/benjamin.jpg" },
-  { name: "Ingride", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Christian", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Ladouce", role: "Role", bio: "Biograph.", photo: "" },
-  { name: "Janson", role: "Role", bio: "Biograph.", photo: "" },
+  { name: "Ingride", role: "Role", bio: "Biograph.", photo: "../Images/Ingride.jpg" },
+  { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "../Images/muhamad.jpg" },
+  { name: "Christian", role: "Role", bio: "Biograph.", photo: "../Images/christian.jpg" },
+  { name: "Ladouce", role: "Role", bio: "Biograph.", photo: "../Images/ladouce.jpg" },
+  { name: "Janson", role: "Role", bio: "Biograph.", photo: "../Images/janson.jpg" },
 ];
 
 const grid = document.getElementById("teamGrid");
