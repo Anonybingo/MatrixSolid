@@ -6,7 +6,7 @@ const TEAM = [
   { name: "Muhamad", role: "Role", bio: "Biograph.", photo: "../Images/muhamad.jpg" },
   { name: "Christian", role: "Role", bio: "Biograph.", photo: "../Images/christian.jpg" },
   { name: "Ladouce", role: "Role", bio: "Biograph.", photo: "../Images/ladouce.jpg" },
-  { name: "Janson", role: "Role", bio: "Biograph.", photo: "../Images/janson.jpg" },
+  { name: "Janson", role: "Role", bio: "Biograph.", photo: "../Images/janson.png" },
 ];
 
 const grid = document.getElementById("teamGrid");
