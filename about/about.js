@@ -6,7 +6,7 @@ const TEAM = [
   { name: "Muhamad", role: "Editor", bio: "Edits reels for the team socials.", photo: "../Images/muhamad.jpg" },
   { name: "Christian", role: "Strategic Critical Thinker", bio: "Serves as our team's structural compass by challenging assumptions and identifying potential project blind spots.", photo: "../Images/christian.jpg" },
   { name: "Ladouce", role: "Creative Ideas lead", bio: "Brainstorms original ideas for the team.", photo: "../Images/ladouce.jpg" },
-  { name: "Janson", role: "Technical lead", bio: "Does technical tasks for the team.", photo: "../Images/janson.jpg" },
+  { name: "Janson", role: "Technical lead", bio: "Does technical tasks for the team.", photo: "../Images/janson.JPG" },
 ];
 
 const grid = document.getElementById("teamGrid");
